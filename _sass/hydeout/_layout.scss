@@ -113,7 +113,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 3rem;
   }
 
   // Show secondary nav content + lead
@@ -180,7 +180,8 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
+      font-size: 3rem;
+      text-align: center;
       .back-arrow {
         display: none;
       }
@@ -297,6 +298,7 @@ body {
 #sidebar nav > * {
   display: block;
   line-height: 1.75;
+  font-size: 1rem;
 }
 
 #sidebar nav > .icon {
