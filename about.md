@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: page
 title: About
+sidebar_link: true
 ---
 
-This is an example page!
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it
+  for your own use upon downloading. Carry on!
+</p>
 
-Actually, it has the same layout of a post...
+To make pages show up in the sidebar, add `sidebar_link: true` to the front
+matter.
