@@ -5,4 +5,64 @@ date: 2024-01-04 17:03:00 +0900
 categories: test1 test2
 ---
 
-This is First post, and will be start.
+# This is for Test
+
+<br>
+
+## This is markdown test
+
+
+<br>
+
+테스트용 첫 번째 문서입니다. 여기서는 다양한 markdown 문법을 시험해보겠습니다.
+
+{% highlight C++ %}
+// 이렇게 코드 블록을 표시할 수 있습니다.
+
+#include <iostream>
+using namespace std
+
+int main(){
+    cout << "Hello, world!" << endl;
+}
+
+// Hello, world!를 출력하는 C++ 문법입니다. 
+// jekyll 에선 markdown 문법이 조금 다르네요.
+{% endhighlight %}
+
+<br>
+
+{% highlight Python %}
+// 파이썬도 되는지 볼까요
+
+print ("Hello, world!")
+
+// 파이썬 문법입니다.
+{% endhighlight %}
+
+<br>
+
+{% highlight Javascript %}
+// JS도 해봅시다
+
+console.log("Hello, world!")
+
+// JS도 되네요
+{% endhighlight %}
+
+
+<br>
+
+{% highlight COBOL %}
+
+       * 내친김에 코볼도 해봅시다
+         IDENTIFICATION DIVISION.
+         PROGRAM-ID TEST1.
+         PROCEDURE DIVISION.
+         DISPLAY "HELLO, WORLD!".
+
+
+       *COBOL은 안되네요
+{% endhighlight %}
+
+<br>

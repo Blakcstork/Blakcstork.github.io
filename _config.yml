@@ -1,6 +1,10 @@
 # Dependencies
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rogue
+#highlighter: rouge
 
 # Setup
 title: 아무거나블로그
